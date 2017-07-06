@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Application.py" />
+    <Compile Include="Docstring01.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -36,7 +39,9 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DirectivesDoctest01.txt" />
     <Content Include="Doctest01.txt" />
+    <Content Include="DoctestExercise01.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

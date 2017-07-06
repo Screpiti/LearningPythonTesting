@@ -19,3 +19,9 @@ SyntaxError: invalid syntax
 
 >>> print()
 <BLANKLINE>
+
+>>> def my_test():
+...     import math
+...     return math.pi
+>>> my_test()
+3.14
