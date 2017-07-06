@@ -11,3 +11,11 @@
 >>> test_write()
 Hello
 True
+
+>>> def faulty(:
+...     yield from [1, 2, 3, 4, 5]
+Traceback (most recent call last):
+SyntaxError: invalid syntax
+
+>>> print()
+<BLANKLINE>
