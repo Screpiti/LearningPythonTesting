@@ -25,3 +25,9 @@ SyntaxError: invalid syntax
 ...     return math.pi
 >>> my_test()
 3.14
+
+>>> from testing_math import multiply
+>>> multiply(3, 4)
+12
+>>> multiply('a', 3)
+'aaa'
